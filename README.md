@@ -43,6 +43,8 @@ doCompare(arr1, arr2);
 然后你状态渲染到页面     
 看看截图就明白了
 
+# [![示例](https://raw.githubusercontent.com/tonyDx/frontEndDiffHelper/master/test.png)]
+
 
 
 ## License
