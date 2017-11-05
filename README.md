@@ -17,24 +17,19 @@ let arr2 = [ 'let a=2;' , 'let b=2;' , 'let c=3;' , 'let d=2;' , 'let e=2;' , 'l
 
 doCompare(arr1, arr2);
 //=> { 
-
 	LeftObj:{ 
 			delete: [ true, false, false, false, false ],
-	     	modify: [ false, false, true, false, false ],
-	     	empty: [ false, false, false, true, false ],
-	     	code: [ 'let b=2;', 'let a=2;', 'let c=1;', ' \n', 'let d=2;' ] 
+	     		modify: [ false, false, true, false, false ],
+	     		empty: [ false, false, false, true, false ],
+	     		code: [ 'let b=2;', 'let a=2;', 'let c=1;', ' \n', 'let d=2;' ] 
 	     	},
-  	
   	RightObj:{
-		 	add: [ false, false, false, true, false, true, true ],
-	     	modify: [ false, false, true, false, false, false, false ],
-	     	empty: [ true, false, false, false, false ],
-	     	code:
-		      [ ' \n','let a=2;','let b=2;','let c=3;','let d=2;','let e=2;','let f=3;' ] 
-		      } 
-
+			add: [ false, false, false, true, false, true, true ],
+	     		modify: [ false, false, true, false, false, false, false ],
+	     		empty: [ true, false, false, false, false ],
+	     		code:[ ' \n','let a=2;','let b=2;','let c=3;','let d=2;','let e=2;','let f=3;' ] 
+		 } 
 	  }
-
 ```
 
 ## 说明
