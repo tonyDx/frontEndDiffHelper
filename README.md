@@ -5,7 +5,7 @@
 
 文件简析
 
-- index.html为一个完整的js文本比较工具。
+- ![index.html](https://tonydx.github.io/frontEndDiffHelper/)为一个完整的js文本比较工具。
 - main.js 为改进版本，可以直接引用
 
 ## Usage
